@@ -6,7 +6,7 @@
 
 # Introduction
 
-In this project I have created a JWT Token generator which is containerized.The project relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT.I have deployed the Flask app to a Kubernetes cluster using Docker and AWS EKS.
+In this project I have created a JWT Token generator which is containerized using Python.The project relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT.I have deployed the Flask app to a Kubernetes cluster using Docker and AWS EKS.
 
 The Flask app that will be used for this project consists of an API with three endpoints:
 
